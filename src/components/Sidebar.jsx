@@ -10,7 +10,7 @@ function Sidebar() {
 	return (
 		<>
 			{isOpen ? (
-				<div className="bg-green-300 h-screen w-56">
+				<div className="bg-green-300 h-screen w-1/6">
 					<ul>
 						{/* Create dark mode component here */}
 						<li className="p-4">
@@ -23,7 +23,7 @@ function Sidebar() {
 					</ul>
 				</div>
 			) : (
-				<button onClick={toggleSideBar} className="p-4">
+				<button onClick={toggleSideBar} className="p-4 w-1/6">
 					Toggle sidebar
 				</button>
 			)}
