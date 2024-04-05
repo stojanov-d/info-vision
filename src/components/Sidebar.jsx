@@ -1,13 +1,10 @@
-import SidebarItem from './SidebarItem';
+import SidebarItems from './SidebarItems';
 
 function Sidebar() {
 	return (
-		<div className="col-span-1 min-h-64 bg-cyan-500">
-			<ul>
-				<SidebarItem itemContent={'Item1'} />
-				<SidebarItem itemContent={'Item2'} />
-				<SidebarItem itemContent={'Item3'} />
-				<SidebarItem itemContent={'Item4'} />
+		<div className="col-span-1 bg-cyan-500 ">
+			<ul className="sticky top-3">
+				<SidebarItems />
 			</ul>
 		</div>
 	);
