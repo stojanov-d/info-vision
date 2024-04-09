@@ -2,7 +2,7 @@ import GamesListItem from './GamesListItem';
 
 function GamesList() {
 	return (
-		<ul>
+		<ul className="content-center">
 			<GamesListItem itemContent={'Game1'} />
 			<GamesListItem itemContent={'Game2'} />
 			<GamesListItem itemContent={'Game3'} />
