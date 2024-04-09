@@ -1,5 +1,5 @@
 import MainContentLayout from './MainContentLayout';
-import Sidebar from './Sidebar';
+import Sidebar from '../sidebar/Sidebar';
 
 function Layout() {
 	return (

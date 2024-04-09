@@ -1,5 +1,5 @@
-import GamesList from './GamesList';
-import PlayerCardsLayout from './PlayerCardsLayout';
+import GamesList from '../games/GamesList';
+import PlayerCardsLayout from '../players/PlayerCardsLayout';
 
 function MainContentLayout() {
 	return (
