@@ -1,17 +1,18 @@
 import PropTypes from 'prop-types';
 
-function GamesListItem({ itemContent }) {
+function GamesListItem({ homeTeam, awayTeam }) {
 	return (
 		<a>
 			<li className="p-3 m-3 hover:bg-opacity-45  bg-green-400">
-				{itemContent}
+				{homeTeam} vs {awayTeam}
 			</li>
 		</a>
 	);
 }
 
 GamesListItem.propTypes = {
-	itemContent: PropTypes.node.isRequired,
+	homeTeam: PropTypes.node.isRequired,
+	awayTeam: PropTypes.node.isRequired,
 };
 
 export default GamesListItem;
